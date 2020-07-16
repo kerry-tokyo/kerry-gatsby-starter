@@ -10,6 +10,7 @@ Use Kerry's Starter to start your next great Gatsby project.
 
     ```shell
     cd kerry-gatsby-starter/
+    npm install
     gatsby develop
     ```
 
