@@ -1,0 +1,29 @@
+@import '~styles/config';
+
+.button {
+  display: inline-flex;
+  position: relative;
+  padding: 0 $gutter;
+  margin: 0 $gutter;
+  height: 40px;
+  cursor: pointer;
+  font-size: $font-size;
+  text-align: center;
+  text-decoration: none;
+  line-height: 40px;
+  vertical-align: middle;
+  background-color: $black;
+  color: $white;
+  transition: $fade;
+
+  &:hover {
+    background-color: lighten(#000, 25%);
+  }
+
+  &:first-of-type {
+    margin-left: 0;
+  }
+  &:last-of-type {
+    margin-right: 0;
+  }
+}

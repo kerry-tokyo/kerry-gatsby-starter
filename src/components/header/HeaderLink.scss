@@ -1,0 +1,27 @@
+@import '~styles/config';
+
+.link {
+  display: inline-flex;
+  margin-left: 3rem;
+  text-decoration: none;
+  transition: 200ms opacity ease-in-out;
+  text-transform: capitalize;
+  font-weight: 600;
+
+  &:first-of-type {
+    margin-left: 0;
+  }
+
+  &:hover {
+    opacity: 0.5;
+  }
+
+  &__icon {
+    position: relative;
+    width: auto;
+    height: 1.8rem;
+& * {
+    fill: $primary;
+}
+  }
+}

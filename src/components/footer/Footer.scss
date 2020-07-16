@@ -1,0 +1,38 @@
+@import '~styles/config';
+
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  &__content {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:  3rem 0;
+    width: 100%;
+  }
+
+  &__list {
+    display: flex;
+  }
+
+  &__item svg {
+    margin-left: 30px;
+    transition: 200ms opacity ease-in-out;
+    position: relative;
+    width: auto;
+    height: 1.8rem;
+  & * {
+      fill: $primary;
+  }
+    &:hover {
+      opacity: 0.5;
+    }
+  }
+  //Copylight
+  & .copylight{
+    font-size: $font-size-min;
+  }
+}

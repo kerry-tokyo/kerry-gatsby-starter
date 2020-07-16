@@ -1,0 +1,32 @@
+@import '~styles/config';
+
+:global {
+  @import '~styles/base';
+}
+
+.layout {
+  display: block;
+  min-height: 100vh;
+}
+
+//Icons
+.header-ico {
+  & svg {
+    width: auto;
+    height: 1.8rem;
+  }
+}
+.copylight{
+    margin: 0 auto;
+    padding: 0 5rem;
+    position: fixed;
+    bottom: 3rem;
+    left: 0;
+    width: 100%;
+    z-index: 9900;
+    text-align: center;
+    & h6{
+      font-size: $font-size-min;
+      color: $grey;
+    }
+}

@@ -1,0 +1,171 @@
+$gutter: 30px;
+$container-gutter-mobile: $gutter;
+$container-gutter-tablet: 50px;
+$container-gutter-desktop: 70px;
+
+// grid
+$grid-column-count: 12;
+$grid-baseline: 16px;
+
+// page dimensions
+$page-width: 1290px;
+$page-limit: $page-width + ($container-gutter-desktop * 2);
+
+// Fonts
+$serif: "Ryo Display PlusN", serif;
+$sans: "Ambit", "Ryo Gothic PlusN", sans-serif;
+$font-size: 1.7rem;
+$font-size-min: 1.3rem;
+$line-height: 1.8;
+
+ // Colors
+$color-font: #333;
+$color-background: #fff;
+$color-placeholder: #ddd;
+
+// Timings
+$transition-enter: 200ms;
+$transition-leave: 500ms;
+
+// Custom break point (Min)
+$min-1800: 1800px;
+$min-1440: 1440px;
+$min-1280: 1280px;
+$min-1200: 1200px;
+$min-1080: 1080px;
+$min-1024: 1024px;
+$min-960: 960px;
+$min-840: 840px;
+$min-768: 768px;
+$min-720: 720px;
+$min-640: 640px;
+$min-600: 600px;
+$min-560: 560px;
+$min-540: 540px;
+$min-480: 480px;
+$min-420: 420px;
+$min-375: 375px;
+$min-360: 360px;
+
+// Custom break points (Max)
+$max-1280: 1279px;
+$max-1200: 1199px;
+$max-1080: 1079px;
+$max-1024: 1023px;
+$max-960: 959px;
+$max-840: 839px;
+$max-768: 767px;
+$max-720: 719px;
+$max-640: 639px;
+$max-600: 599px;
+$max-540: 539px;
+$max-480: 479px;
+$max-420: 419px;
+$max-375: 374px;
+$max-360: 359px;
+
+// Predefined breakpoints
+$phone: $min-420;
+$phablet: $min-540;
+$tablet: $min-720;
+$desktop: $min-1080;
+$desktop_medium: $min-1280;
+$desktop_large: $min-1440;
+
+// Segment
+$segment-padding-mobile: $gutter * 3;
+$segment-padding: 200px;
+
+ //percentage-based segments spacing
+// Vertical scaling values.
+// remove this map to disable vertical scaling
+// value 1 = height breakpoint, value 2 = multiplier
+$scale: (
+  (920px, 0.975),
+  (800px, 0.95),
+  (690px, 0.925),
+);
+
+//Colors
+$primary: #10141A;
+$secondary: #73737D;
+$grey: #7d7d7d;
+$background-color: #fff;
+$background-grey: #fafafa;
+$background-color-grey: #fafafa;
+$dark-background-color-grey: #191f27;
+$bar: #252A33;
+$accent: #6400ff;
+$primary-bg: #f2f2f2;
+$dark-primary-bg: #181D26;
+$hover: rgba(0, 0, 0, 0.3);
+$hover: rgba(0, 0, 0, 0.3);
+$primary-hover: #1F2733;
+$shadow: rgba(33,33, 33,.04)2px 2px 10px 2px;
+$drop-shadow: drop-shadow(2px 2px 10px rgba(33,33,33,.04));
+$gradient: linear-gradient(180deg, rgba(217, 219, 224, 0) 0%, #D9DBE0 100%);
+$paragraph: #1C2025;
+$horizontalRule: rgba(8, 8, 11, 0.15);
+$inputBackground: rgba(0, 0, 0, 0.05);
+
+//dark
+$day: #10141a;
+$night: rgba(8, 8, 11, 0.15);
+$dark-day: rgba(255, 255, 255, 0.15);
+$dark-night: #fcfcfc;
+
+//Animations
+$fade: all 0.3s;
+$scroll: all 0.9s cubic-bezier(0.63, 0.03, 0.17, 0.95);
+
+//3rd color
+$bright-red: #ff0000;
+$red: #ff005d;
+$yellow: #ffcc00;
+$blue: #0084ff;
+$green: #00ffae;
+$purple: #6400ff;
+$orange: #ffa200;
+$black: #10141A;
+$white: #fcfcfc;
+$dark-background-color60: rgba(16, 20,26, 0.6);
+$dark-background-color40: rgba(16, 20,26, 0.4);
+$toggle-colorButton: #fff;
+$desktop-color-button: #fff;
+$toggle-colorButton-bg: #10141A;
+
+/*App*/
+$app-colorButton: #10141A;
+$app-color: rgba(8, 8, 11, 0.15);
+$app-gradations: 0 1px 10px rgba(0,0,0,.9);
+
+/*DARK COLORS*/
+$dark-grey: #7d7d7d;
+$dark-primary: #fcfcfc;
+$dark-secondary: #fcfcfc;
+$dark-accent: #00ffae;
+$dark-accent-bg: rgba(0, 255,174, 0.5);
+$dark-background: #212121;
+$dark-background-color: #10141A;
+$dark-background-grey: #111216;
+$dark-hover: rgba(255, 255, 255, 0.07);
+$dark-primary-hover: #E2E2E2;
+$dark-accent-hover: #00cc8b;
+$dark-shadow: 0 0 84px 16px rgba(0,0,0,.4);
+$dark-gradient: linear-gradient(180deg, #111216 0%, rgba(66, 81, 98, 0.36) 100%);
+$dark-paragraph: #d1d1d1;
+$dark-accent-text: #212121;
+$dark-progress: #fcfcfc;
+$dark-card: #252A33;
+$dark-error: #EE565B;
+$dark-success: #ff6f00;
+$dark-errorBackground: rgba(238, 86, 91, 0.1);
+$dark-horizontalRule: rgba(255, 255, 255, 0.15);
+$dark-inputBackground: rgba(255, 255, 255, 0.07);
+$home-colorButton-bg: '#10141a';
+
+/*App*/
+$dark-app-colorButton: #fcfcfc;
+$dark-app-color: #fcfcfc;
+$dark-app-gradations: 0 0 54px rgba(0,0,0,1);
+$dark-toggle-colorButton: '#fcfcfc';
