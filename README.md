@@ -9,7 +9,7 @@ Use Kerry's Starter to start your next great Gatsby project.
     Navigate into your new site’s directory and start it up.
 
     ```shell
-    cd kerry-gatsby-starter/
+    cd kerry-gatsby-starter
     npm install
     gatsby develop
     ```
