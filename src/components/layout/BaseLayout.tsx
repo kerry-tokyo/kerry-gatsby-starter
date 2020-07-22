@@ -28,7 +28,9 @@ export default ({ children }: BaseLayoutProps) => (
     <Helmet {...helmet} />
 
     <Header>
-      <Button  isExternal href="https://write.kerrytokyo.com/">Write</Button>
+      <HeaderLink to="/about" name="About"/>
+      <HeaderLink to="/contact" name="Contact"/>
+      <Button href="https://write.kerrytokyo.com/">Write</Button>
     </Header>
 
     {children}

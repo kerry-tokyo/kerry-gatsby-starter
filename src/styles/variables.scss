@@ -14,11 +14,11 @@ $page-limit: $page-width + ($container-gutter-desktop * 2);
 // Fonts
 $serif: "Ryo Display PlusN", serif;
 $sans: "Ambit", "Ryo Gothic PlusN", sans-serif;
-$font-size: 1.7rem;
+$font-size: 1.6rem;
 $font-size-min: 1.3rem;
 $line-height: 1.8;
 
- // Colors
+// Colors
 $color-font: #333;
 $color-background: #fff;
 $color-placeholder: #ddd;
@@ -76,7 +76,7 @@ $desktop_large: $min-1440;
 $segment-padding-mobile: $gutter * 3;
 $segment-padding: 200px;
 
- //percentage-based segments spacing
+//percentage-based segments spacing
 // Vertical scaling values.
 // remove this map to disable vertical scaling
 // value 1 = height breakpoint, value 2 = multiplier
@@ -86,39 +86,46 @@ $scale: (
   (690px, 0.925),
 );
 
+//Icons
+$icon-size-max: 5rem;
+$icon-size: 1.6rem;
+$icon-size-min: 1.3rem;
+$icon-size-button: calc(45px + (55 - 45) * ((100vw - 375px) / (1500 - 375)));
+$icon-size-button-big: calc(2.5rem + (45 - 25) * ((100vw - 375px) / (1500 - 375)));
+
 //Colors
 $primary: #10141A;
 $secondary: #73737D;
-$grey: #7d7d7d;
 $background-color: #fff;
-$background-grey: #fafafa;
-$background-color-grey: #fafafa;
-$dark-background-color-grey: #191f27;
-$bar: #252A33;
 $accent: #6400ff;
 $primary-bg: #f2f2f2;
-$dark-primary-bg: #181D26;
-$hover: rgba(0, 0, 0, 0.3);
-$hover: rgba(0, 0, 0, 0.3);
-$primary-hover: #1F2733;
-$shadow: rgba(33,33, 33,.04)2px 2px 10px 2px;
-$drop-shadow: drop-shadow(2px 2px 10px rgba(33,33,33,.04));
-$gradient: linear-gradient(180deg, rgba(217, 219, 224, 0) 0%, #D9DBE0 100%);
-$paragraph: #1C2025;
-$horizontalRule: rgba(8, 8, 11, 0.15);
-$inputBackground: rgba(0, 0, 0, 0.05);
 
-//dark
-$day: #10141a;
-$night: rgba(8, 8, 11, 0.15);
-$dark-day: rgba(255, 255, 255, 0.15);
-$dark-night: #fcfcfc;
+$horizontalRule: rgba(8, 8, 11, 0.15);
+
+$dark-horizontalRule: rgba(252, 252, 252, 0.15);
+
+$inputBackground: rgba(0, 0, 0, 0.05);
+$primary-grey: rgba(16, 20, 26, 0.05);
+
+//Colors Typography
+$title: #10141a;
+$paragraph: #1C2025;
+$grey: rgba(16, 20, 26, .3);
+$placeholder: #ddd;
+
+$dark-title: #fcfcfc;
+$dark-paragraph: #efefef;
+$dark-grey: rgba(252, 252, 252, .3);
+$dark-placeholder: #6f6f6f;
 
 //Animations
 $fade: all 0.3s;
+$fade-up: all 0.1s cubic-bezier(0.63, 0.03, 0.17, 0.95);
+$line: 0.6s cubic-bezier(1, 0, 0, 1);
 $scroll: all 0.9s cubic-bezier(0.63, 0.03, 0.17, 0.95);
+$show: max-height 0.3s cubic-bezier(0.63, 0.03, 0.17, 0.95);
 
-//3rd color
+//Other color
 $bright-red: #ff0000;
 $red: #ff005d;
 $yellow: #ffcc00;
@@ -128,44 +135,10 @@ $purple: #6400ff;
 $orange: #ffa200;
 $black: #10141A;
 $white: #fcfcfc;
-$dark-background-color60: rgba(16, 20,26, 0.6);
-$dark-background-color40: rgba(16, 20,26, 0.4);
-$toggle-colorButton: #fff;
-$desktop-color-button: #fff;
-$toggle-colorButton-bg: #10141A;
 
-/*App*/
-$app-colorButton: #10141A;
-$app-color: rgba(8, 8, 11, 0.15);
-$app-gradations: 0 1px 10px rgba(0,0,0,.9);
+//objects
+$circle: 20rem;
+$rounded: 0.4rem;
 
-/*DARK COLORS*/
-$dark-grey: #7d7d7d;
-$dark-primary: #fcfcfc;
-$dark-secondary: #fcfcfc;
-$dark-accent: #00ffae;
-$dark-accent-bg: rgba(0, 255,174, 0.5);
-$dark-background: #212121;
-$dark-background-color: #10141A;
-$dark-background-grey: #111216;
-$dark-hover: rgba(255, 255, 255, 0.07);
-$dark-primary-hover: #E2E2E2;
-$dark-accent-hover: #00cc8b;
-$dark-shadow: 0 0 84px 16px rgba(0,0,0,.4);
-$dark-gradient: linear-gradient(180deg, #111216 0%, rgba(66, 81, 98, 0.36) 100%);
-$dark-paragraph: #d1d1d1;
-$dark-accent-text: #212121;
-$dark-progress: #fcfcfc;
-$dark-card: #252A33;
-$dark-error: #EE565B;
-$dark-success: #ff6f00;
-$dark-errorBackground: rgba(238, 86, 91, 0.1);
-$dark-horizontalRule: rgba(255, 255, 255, 0.15);
-$dark-inputBackground: rgba(255, 255, 255, 0.07);
-$home-colorButton-bg: '#10141a';
-
-/*App*/
-$dark-app-colorButton: #fcfcfc;
-$dark-app-color: #fcfcfc;
-$dark-app-gradations: 0 0 54px rgba(0,0,0,1);
-$dark-toggle-colorButton: '#fcfcfc';
+//Border
+$border: 1px solid $horizontalRule;

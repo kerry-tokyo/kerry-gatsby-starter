@@ -1,15 +1,18 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
+import  BaseLayout from 'components/layout/BaseLayout';
 
-import { Segment } from 'components/segment/Segment';
+import { BlockText } from 'components/block-text/BlockText';
 
 // tslint:disable no-default-export
 export default () => (
-  <>
-    <Helmet title="404 Not Found" />
+  <BaseLayout>
+    <Helmet title="404" />
 
-    <Segment>
-      <h1>Page was not found</h1>
-    </Segment>
-  </>
+    <BlockText
+    heading="404"
+    description="Thisi is 404 page."
+    />
+
+  </BaseLayout>
 );

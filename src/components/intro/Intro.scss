@@ -2,20 +2,18 @@
 
 .intro {
   position: absolute;
-top: 0;
-bottom: 0;
-display: flex;
-align-items: center;
-justify-content: center;
-width: 100%;
-   & h1{
-     font-family: $serif;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+
+  & h1 {
+    font-family: $serif;
     font-weight: 500;
     line-height: 1.65;
-    font-size: 5.5rem;
+    font-size: calc(2.3rem + (55 - 23) * ((100vw - 375px) / (1500 - 375)));
     max-width: $desktop;
-    @media (max-width: $phablet){
-      font-size: 2.3rem;
-    }
-   }
+  }
 }

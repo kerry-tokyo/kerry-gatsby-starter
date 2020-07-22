@@ -1,7 +1,7 @@
 @import '~styles/config';
 
 .block {
-  padding: 60px 0;
+  padding: 100px 0;
 
   @media (min-width: $min-768) {
     padding: 180px 0;
@@ -16,20 +16,16 @@
   }
 
   &__heading {
-    @include rf(16, 18);
-
-    margin-bottom: 10px;
-
-    font-family: $font-heading;
+    @include rf(20, 25);
+    margin-bottom: 0.5em;
   }
 
   &__description {
     @include rf(16, 18);
-
-    font-weight: 300;
     line-height: (26 / 16);
 
-    a { // stylelint-disable-line
+    a {
+      // stylelint-disable-line
       text-decoration: none;
       font-weight: 400;
 
@@ -37,7 +33,8 @@
 
       transition: 200ms opacity ease-in-out;
 
-      &:hover { // stylelint-disable-line
+      &:hover {
+        // stylelint-disable-line
         opacity: 0.5;
       }
     }
