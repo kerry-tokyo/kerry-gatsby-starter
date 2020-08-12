@@ -2,6 +2,8 @@
 
 Use Kerry's Starter to start your next great Gatsby project.
 
+![hero](src/assets/images/hero.jpg)
+
 ##  Quick start
 
 1.  **Start developing.**
@@ -15,7 +17,7 @@ Use Kerry's Starter to start your next great Gatsby project.
     ```
 
 1.  **Open the source code and start editing!**
-
+µ
     Your site is now running at `http://localhost:8000`!
 
 
