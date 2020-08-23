@@ -14,7 +14,7 @@ $page-limit: $page-width + ($container-gutter-desktop * 2);
 // Fonts
 $serif: "Ryo Display PlusN", serif;
 $sans: "Ambit", "Ryo Gothic PlusN", sans-serif;
-$font-size: 1.6rem;
+$font-size: calc(1.5rem + (18 - 15) * ((100vw - 375px) / (1500 - 375)));
 $font-size-min: 1.3rem;
 $line-height: 1.8;
 
@@ -80,26 +80,23 @@ $segment-padding: 200px;
 // Vertical scaling values.
 // remove this map to disable vertical scaling
 // value 1 = height breakpoint, value 2 = multiplier
-$scale: (
-  (920px, 0.975),
-  (800px, 0.95),
-  (690px, 0.925),
-);
+$scale: ((920px, 0.975), (800px, 0.95), (690px, 0.925));
 
 //Icons
 $icon-size-max: 5rem;
 $icon-size: 1.6rem;
 $icon-size-min: 1.3rem;
 $icon-size-button: calc(45px + (55 - 45) * ((100vw - 375px) / (1500 - 375)));
-$icon-size-button-big: calc(2.5rem + (45 - 25) * ((100vw - 375px) / (1500 - 375)));
+$icon-size-button-big: calc(
+  2.5rem + (45 - 25) * ((100vw - 375px) / (1500 - 375))
+);
 
 //Colors
-$primary: #10141A;
-$secondary: #73737D;
+$primary: #10141a;
+$secondary: #73737d;
 $background-color: #fff;
 $accent: #6400ff;
 $primary-bg: #f2f2f2;
-
 $horizontalRule: rgba(8, 8, 11, 0.15);
 
 $dark-horizontalRule: rgba(252, 252, 252, 0.15);
@@ -109,13 +106,13 @@ $primary-grey: rgba(16, 20, 26, 0.05);
 
 //Colors Typography
 $title: #10141a;
-$paragraph: #1C2025;
-$grey: rgba(16, 20, 26, .3);
+$paragraph: #1c2025;
+$grey: rgba(16, 20, 26, 0.3);
 $placeholder: #ddd;
 
 $dark-title: #fcfcfc;
 $dark-paragraph: #efefef;
-$dark-grey: rgba(252, 252, 252, .3);
+$dark-grey: rgba(252, 252, 252, 0.3);
 $dark-placeholder: #6f6f6f;
 
 //Animations
@@ -133,7 +130,7 @@ $blue: #0084ff;
 $green: #00ffae;
 $purple: #6400ff;
 $orange: #ffa200;
-$black: #10141A;
+$black: #10141a;
 $white: #fcfcfc;
 
 //objects
