@@ -12,14 +12,13 @@ $page-width: 1290px;
 $page-limit: $page-width + ($container-gutter-desktop * 2);
 
 // Fonts
-$serif: "Ryo Display PlusN", serif;
-$sans: "Ambit", "Ryo Gothic PlusN", sans-serif;
+$serif: "Noto Serif JP", serif;
+$sans: "Open Sans", "Noto Sans JP", sans-serif;
 $font-size: calc(1.5rem + (18 - 15) * ((100vw - 375px) / (1500 - 375)));
 $font-size-min: 1.3rem;
 $line-height: 1.8;
 
 // Colors
-$color-font: #333;
 $color-background: #fff;
 $color-placeholder: #ddd;
 
