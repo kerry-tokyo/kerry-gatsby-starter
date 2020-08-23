@@ -1,4 +1,4 @@
-# Kerry Gatsby starter
+# Kerry Gatsby Starter
 
 Use Kerry's Starter to start your next great Gatsby project.
 
