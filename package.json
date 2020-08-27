@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "kerry-gatsby-starter",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "Use Kerry's Starter to start your next great Gatsby project.  ",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Kerry <hello.kerrytokyo@gmail.com>",
   "dependencies": {
     "gatsby": "^2.23.12",
     "gatsby-image": "^2.4.9",
