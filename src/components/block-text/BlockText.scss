@@ -1,4 +1,4 @@
-@import '~styles/config';
+@import "~styles/config";
 
 .block {
   padding: 100px 0;
@@ -16,12 +16,10 @@
   }
 
   &__heading {
-    @include rf(20, 25);
     margin-bottom: 0.5em;
   }
 
   &__description {
-    @include rf(16, 18);
     line-height: (26 / 16);
 
     a {

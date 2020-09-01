@@ -91,6 +91,10 @@ video {
   border-radius: 0;
 }
 
+a {
+  color: $paragraph;
+}
+
 ol,
 ul {
   list-style: none;
@@ -105,7 +109,7 @@ blockquote:after,
 blockquote:before,
 q:after,
 q:before {
-  content: '';
+  content: "";
   content: none;
 }
 
@@ -124,10 +128,20 @@ textarea {
   font-weight: inherit;
   border: 0;
   appearance: none;
+  border-radius: 0;
 
   &:focus:not(:focus-visible) {
     outline: none;
   }
+}
+
+input[type="button"],
+input[type="text"],
+input[type="submit"],
+input[type="image"],
+textarea {
+  -webkit-appearance: none;
+  border-radius: 0;
 }
 
 *,
@@ -152,7 +166,6 @@ textarea {
   line-height: 1.4;
 }
 
-
 a,
 button {
   text-decoration: none;
@@ -170,6 +183,7 @@ img,
 svg,
 video {
   vertical-align: middle;
+  width: 100%;
   max-width: 100%;
 }
 

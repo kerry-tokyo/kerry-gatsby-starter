@@ -1,0 +1,18 @@
+@import "~styles/config";
+
+.hero {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  @include flex;
+  width: 100%;
+
+  & h1 {
+    font-family: $serif;
+    font-weight: 300;
+    line-height: 1.65;
+    font-size: $font-size-hero;
+    max-width: $desktop;
+    margin: auto;
+  }
+}
