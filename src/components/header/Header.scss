@@ -1,4 +1,4 @@
-@import '~styles/config';
+@import "~styles/config";
 
 #header {
   @include container;
@@ -12,20 +12,20 @@
   background: var(--background-color);
   will-change: transform;
   transition: var(--scroll);
-  display: inline-flex;
-  justify-content: space-between;
+  @include inline-flex($justify-content: space-between);
   //Move
   &.move {
     transform: translateY(-150%);
   }
   //Container
   & .header__container {
-    display: inline-flex;
+    @include inline-flex;
   }
   //Logo
-  & .header__logo svg {
-    height: 2.5rem;
-    width: auto;
+  & .header__logo {
+    @include inline-flex & svg {
+      height: 2.5rem;
+      width: auto;
+    }
   }
-
 }
