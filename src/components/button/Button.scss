@@ -1,10 +1,9 @@
-@import '~styles/config';
+@import "~styles/config";
 
 .button {
   display: inline-flex;
   position: relative;
   padding: 0 $gutter;
-  margin: 0 $gutter;
   height: 40px;
   cursor: pointer;
   font-size: $font-size;
@@ -15,17 +14,9 @@
   background-color: $black;
   color: $white;
   transition: $fade;
-  border-radius: $circle;
+  border-radius: $rounded;
 
   &:hover {
-    background-color: lighten(#000, 25%);
-  }
-
-  &:first-of-type {
-    margin-left: 0;
-  }
-
-  &:last-of-type {
-    margin-right: 0;
+    background-color: lighten($black, 15%);
   }
 }

@@ -1,15 +1,15 @@
-@import '~styles/config';
+@import "~styles/config";
 
 .link {
   display: inline-flex;
-  margin-left: 3rem;
+  margin-right: calc(2rem + (50 - 20) * ((100vw - 375px) / (1500 - 375)));
   text-decoration: none;
   transition: 200ms opacity ease-in-out;
   text-transform: capitalize;
   font-weight: 600;
 
-  &:first-of-type {
-    margin-left: 0;
+  &:last-of-type {
+    margin-right: 0;
   }
 
   &:hover {
@@ -20,8 +20,8 @@
     position: relative;
     width: auto;
     height: 1.8rem;
-& * {
-    fill: $primary;
-}
+    & * {
+      fill: $primary;
+    }
   }
 }
