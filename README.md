@@ -1,8 +1,8 @@
+![hero](src/assets/images/hero.png)
+
 # Kerry Gatsby Starter
 
 Use Kerry's Starter to start your next great Gatsby project.This starter is a customized starter of [ueno-gatsby-starter](https://github.com/ueno-llc/ueno-gatsby-starter). (Thank [@ueno-llc🙏](https://github.com/ueno-llc/))
-
-![hero](src/assets/images/hero.png)
 
 ## Quick start
 
