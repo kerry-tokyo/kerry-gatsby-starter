@@ -9,11 +9,10 @@ export default () => (
   <BaseLayout>
     <Helmet title="Home" />
 
-    <Hero>
-      <h1>
-        Kerry Gatsby Starter is a modern starter that uses TypeScript, React and
-        CSS modules.
-      </h1>
-    </Hero>
+    <Hero
+      strong="Kerry Gatsby Starter"
+      title=" is a modern starter that uses TypeScript, React and
+        CSS modules."
+    ></Hero>
   </BaseLayout>
 );

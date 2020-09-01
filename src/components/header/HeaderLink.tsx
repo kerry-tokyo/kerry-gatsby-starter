@@ -1,8 +1,8 @@
-import React, { ReactNode } from 'react';
+import React, { ReactNode } from "react";
 
-import { Link } from 'components/link/Link';
+import { Link } from "components/link/Link";
 
-import s from './HeaderLink.scss';
+import s from "./HeaderLink.scss";
 
 interface HeaderLinkProps {
   name: string;
@@ -11,8 +11,8 @@ interface HeaderLinkProps {
 }
 
 export const HeaderLink = ({ name, to, icon }: HeaderLinkProps) => {
-  const isLink = typeof to !== 'undefined';
-  const isExternal = isLink && /^((https?:)?\/\/|[0-9a-zA-Z]+:)/.test(to || '');
+  const isLink = typeof to !== "undefined";
+  const isExternal = isLink && /^((https?:)?\/\/|[0-9a-zA-Z]+:)/.test(to || "");
 
   const content = () => (
     <>
@@ -30,7 +30,7 @@ export const HeaderLink = ({ name, to, icon }: HeaderLinkProps) => {
   }
 
   return (
-    <Link className={s.link} to={to}>
+    <Link className={s.link} activeClassName={s.active} to={to}>
       {content()}
     </Link>
   );

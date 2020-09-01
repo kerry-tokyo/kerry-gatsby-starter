@@ -11,12 +11,12 @@
   text-decoration: none;
   line-height: 40px;
   vertical-align: middle;
-  background-color: $black;
+  background-color: $accent;
   color: $white;
   transition: $fade;
   border-radius: $rounded;
 
   &:hover {
-    background-color: lighten($black, 15%);
+    background-color: lighten($accent, 15%);
   }
 }

@@ -24,4 +24,7 @@
       fill: $primary;
     }
   }
+  &.active {
+    color: $accent;
+  }
 }

@@ -5,14 +5,20 @@ import { Container } from "components/container/Container";
 import s from "./Hero.scss";
 
 interface HeroProps {
-  children: ReactNode;
+  title: string;
+  text?: string;
+  strong?: string;
 }
 
-export const Hero = ({ children }: HeroProps) => (
+export const Hero = ({ text, title, strong }: HeroProps) => (
   <div className={s.hero}>
     <Container>
       <div className={s.hero__col}>
-        <div className={s.hero__text}>{children}</div>
+        <h1 className={s.title}>
+          {strong ? <span className={s.strong}>{strong}</span> : ""}
+          {title}
+        </h1>
+        {text ? <p className={s.text}>{text}</p> : ""}
       </div>
     </Container>
   </div>

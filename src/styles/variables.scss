@@ -28,6 +28,7 @@ $page-width: 1290px;
 // Fonts
 $serif: "IBM Plex Serif", serif;
 $sans: "Open Sans", sans-serif;
+$headings: "Anton", sans-serif;
 
 $font-size-l: calc(1.8rem + (23 - 18) * ((100vw - 375px) / (1500 - 375)));
 $font-size-m: 1.6rem;
@@ -37,7 +38,7 @@ $font-size-max: 5rem;
 $font-size-app: 1.4rem;
 $font-size-min: 1.3rem;
 $font-size: calc(1.4rem + (16 - 14) * ((100vw - 375px) / (1500 - 375)));
-$font-size-hero: calc(3rem + (65 - 30) * ((100vw - 375px) / (1500 - 375)));
+$font-size-hero: calc(4rem + (75 - 40) * ((100vw - 375px) / (1500 - 375)));
 $font-size-quote: calc(1.8rem + (30 - 18) * ((100vw - 375px) / (1500 - 375)));
 $font-size-block-title: calc(
   2.2rem + (35 - 22) * ((100vw - 375px) / (1500 - 375))
@@ -119,10 +120,20 @@ $icon-size-button-big: calc(
 );
 
 //Colors
-$primary: #10141a;
+$bright-red: #ff0000;
+$red: #ff005d;
+$yellow: #ffcc00;
+$blue: #0084ff;
+$green: #00ffae;
+$purple: #6400ff;
+$orange: #ffa200;
+$black: #10141a;
+$white: #fcfcfc;
+
+$primary: $black;
 $secondary: #73737d;
 $background-color: #fff;
-$accent: #6400ff;
+$accent: $red;
 $primary-bg: #f2f2f2;
 $horizontalRule: rgba(8, 8, 11, 0.15);
 
@@ -148,17 +159,6 @@ $fade-up: all 0.1s cubic-bezier(0.63, 0.03, 0.17, 0.95);
 $line: 0.6s cubic-bezier(1, 0, 0, 1);
 $scroll: all 0.9s cubic-bezier(0.63, 0.03, 0.17, 0.95);
 $show: max-height 0.3s cubic-bezier(0.63, 0.03, 0.17, 0.95);
-
-//Other color
-$bright-red: #ff0000;
-$red: #ff005d;
-$yellow: #ffcc00;
-$blue: #0084ff;
-$green: #00ffae;
-$purple: #6400ff;
-$orange: #ffa200;
-$black: #10141a;
-$white: #fcfcfc;
 
 //objects
 $circle: 20rem;
