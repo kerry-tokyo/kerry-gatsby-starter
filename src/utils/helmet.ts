@@ -7,7 +7,7 @@ const description =
 
 export const helmet = {
   title,
-  titleTemplate: "%s by Kerry",
+  titleTemplate: "%s by Kerry Gatsby Starter",
   htmlAttributes: { lang: "jp" },
   meta: [
     { name: "description", content: description },
