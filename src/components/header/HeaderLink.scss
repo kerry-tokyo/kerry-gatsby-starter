@@ -26,5 +26,6 @@
   }
   &.active {
     color: $accent;
+    pointer-events: none;
   }
 }
