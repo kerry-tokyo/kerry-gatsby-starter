@@ -9,14 +9,12 @@
   letter-spacing: -0.03em;
   & h1 {
     letter-spacing: -0.03em;
-  }
-
-  & .title {
-    line-height: 1.4;
+    line-height: 1.1;
     font-size: $font-size-hero;
     max-width: $desktop;
     margin: auto;
   }
+
   & .strong {
     color: $accent;
   }
