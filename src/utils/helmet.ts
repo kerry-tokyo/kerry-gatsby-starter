@@ -1,5 +1,5 @@
 import favicon from "assets/images/favicon.png";
-import share from "assets/images/hero.jpg";
+import share from "assets/images/hero.png";
 
 const title = "Kerry Gatsby Starter";
 const description =
