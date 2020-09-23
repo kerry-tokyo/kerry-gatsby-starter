@@ -62,12 +62,7 @@
 
 //gradation
 @mixin gradation-text-accent {
-  background: linear-gradient(
-    90deg,
-    $accent,
-    darken($accent, 4%),
-    darken($accent, 12%)
-  );
+  background: linear-gradient(90deg, $accent, darken($accent, 5%));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
