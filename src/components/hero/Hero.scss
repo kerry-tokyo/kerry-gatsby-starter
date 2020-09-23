@@ -6,10 +6,12 @@
   bottom: 0;
   @include flex;
   width: 100%;
+  letter-spacing: -0.03em;
+  & h1 {
+    letter-spacing: -0.03em;
+  }
 
   & .title {
-    font-family: $serif;
-    font-weight: 200;
     line-height: 1.4;
     font-size: $font-size-hero;
     max-width: $desktop;
@@ -17,6 +19,5 @@
   }
   & .strong {
     color: $accent;
-    font-weight: 300;
   }
 }
