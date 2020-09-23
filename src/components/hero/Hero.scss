@@ -16,6 +16,6 @@
   }
 
   & .strong {
-    color: $accent;
+    @include gradation-text-accent;
   }
 }

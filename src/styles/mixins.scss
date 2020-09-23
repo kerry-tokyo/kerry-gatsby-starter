@@ -59,3 +59,20 @@
   align-items: $align-items;
   justify-content: $justify-content;
 }
+
+//gradation
+@mixin gradation-text-accent {
+  background: linear-gradient(
+    90deg,
+    $accent,
+    darken($accent, 4%),
+    darken($accent, 12%)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+}
+
+@mixin gradation-bg-accent {
+  background: linear-gradient(130deg, $accent, darken($accent, 5%));
+}

@@ -139,6 +139,7 @@ $dark-horizontalRule: rgba(252, 252, 252, 0.15);
 $inputBackground: rgba(0, 0, 0, 0.05);
 $primary-grey: rgba(16, 20, 26, 0.05);
 
+$gradation-accent: linear-gradient(130deg, $accent, darken($accent, 5%));
 //Colors Typography
 $title: #10141a;
 $paragraph: #1c2025;
@@ -156,7 +157,7 @@ $fade-up: all 0.1s cubic-bezier(0.63, 0.03, 0.17, 0.95);
 $line: 0.6s cubic-bezier(1, 0, 0, 1);
 $scroll: all 0.9s cubic-bezier(0.63, 0.03, 0.17, 0.95);
 $show: max-height 0.3s cubic-bezier(0.63, 0.03, 0.17, 0.95);
-
+$push: all 0.3s cubic-bezier(0.63, 0.03, 0.17, 0.95);
 //objects
 $circle: 20rem;
 $rounded: 0.4rem;

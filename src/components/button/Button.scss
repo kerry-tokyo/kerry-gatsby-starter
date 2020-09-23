@@ -12,12 +12,12 @@
   text-decoration: none;
   line-height: 40px;
   vertical-align: middle;
-  background-color: $accent;
   color: $white;
-  transition: $fade;
+  transition: $push;
   border-radius: $rounded;
+  @include gradation-bg-accent;
 
   &:hover {
-    background-color: lighten($accent, 15%);
+    transform: scale(0.9);
   }
 }
