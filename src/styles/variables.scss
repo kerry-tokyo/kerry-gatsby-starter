@@ -131,6 +131,7 @@ $primary: $black;
 $secondary: #73737d;
 $background-color: #fff;
 $accent: $red;
+$sub-accent: $green;
 $primary-bg: #f2f2f2;
 $horizontalRule: rgba(8, 8, 11, 0.15);
 
@@ -139,7 +140,7 @@ $dark-horizontalRule: rgba(252, 252, 252, 0.15);
 $inputBackground: rgba(0, 0, 0, 0.05);
 $primary-grey: rgba(16, 20, 26, 0.05);
 
-$gradation-accent: linear-gradient(130deg, $accent, darken($accent, 5%));
+$gradation-accent: linear-gradient(130deg, $accent, $sub-accent);
 //Colors Typography
 $title: #10141a;
 $paragraph: #1c2025;
