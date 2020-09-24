@@ -15,7 +15,7 @@
   color: $white;
   transition: $push;
   border-radius: $rounded;
-  @include gradation-bg-accent;
+  @include gradation-accent-bg;
 
   &:hover {
     transform: scale(0.9);

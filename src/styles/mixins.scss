@@ -61,12 +61,12 @@
 }
 
 //gradation
-@mixin gradation-text-accent {
+@mixin gradation-accent-text {
   background: $gradation-accent;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-@mixin gradation-bg-accent {
+@mixin gradation-accent-bg {
   background: $gradation-accent;
 }

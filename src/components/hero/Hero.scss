@@ -16,6 +16,6 @@
   }
 
   & .strong {
-    @include gradation-text-accent;
+    @include gradation-accent-text;
   }
 }
