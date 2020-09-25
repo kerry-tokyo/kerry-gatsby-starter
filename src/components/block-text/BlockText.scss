@@ -1,11 +1,7 @@
 @import "~styles/config";
 
 .block {
-  padding: 100px 0;
-
-  @media (min-width: $min-768) {
-    padding: 180px 0;
-  }
+  margin: $block-margin 0;
 
   &__col {
     @include grid-col;
