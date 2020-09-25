@@ -94,8 +94,8 @@ $phone: $min-420;
 $phablet: $min-540;
 $tablet: $min-720;
 $desktop: $min-1080;
-$desktop_medium: $min-1280;
-$desktop_large: $min-1440;
+$desktop-m: $min-1280;
+$desktop-l: $min-1440;
 
 // Segment
 $segment-padding-mobile: $gutter * 3;

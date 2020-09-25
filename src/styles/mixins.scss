@@ -8,13 +8,9 @@
 
 @mixin container() {
   width: 100%;
-  max-width: 1500px;
+  max-width: $desktop_l;
   margin: 0 auto;
-  padding: 0 5rem;
-  /*PHABLET*/
-  @media (max-width: $phablet) {
-    padding: 0 2rem;
-  }
+  padding: 0 $container-gutter;
 }
 @mixin js-only {
   html:not(:global(.no-js)) & {
