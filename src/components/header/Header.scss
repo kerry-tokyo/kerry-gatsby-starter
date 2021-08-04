@@ -23,7 +23,8 @@
   }
   //Logo
   & .header__logo {
-    @include inline-flex & svg {
+    @include inline-flex;
+    & svg {
       height: 2.5rem;
       width: auto;
     }
